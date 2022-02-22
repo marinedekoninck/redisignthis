@@ -12,7 +12,35 @@ max-width: 100%;
 height: auto;
 }
 
-nav{
-background-color: white;
+.navbar{
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .navitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 240px;
+ }
+
+.imglist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
 }
 
+.imgandinfo{
+margin-left: 25%;
+}
+
+.recipe{
+margin-left: 25%;
+}
+
+.categories{
+    margin-left: 25%;
+}
